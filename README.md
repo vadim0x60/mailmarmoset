@@ -4,7 +4,7 @@
 
 Ever used [mailchimp](https://mailchimp.com/)? 
 This library is to mailchimp what [marmoset](https://en.wikipedia.org/wiki/Marmoset) is to a chimp - a smaller, cuter and simpler version of an overgrown monstrosity.
-A fully functioning email campaign tool consisting built with 31 lines of Python.
+A fully functioning email campaign tool built with 31 lines of Python.
 
 ## How
 
