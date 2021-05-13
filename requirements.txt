@@ -1,0 +1,3 @@
+markdownmail==0.*
+pyyaml==5.*
+braceexpand==0.*
