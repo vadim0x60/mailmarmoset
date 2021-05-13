@@ -15,7 +15,7 @@ git clone https://github.com/vadim0x60/mailmarmoset
 ```
 
 Pick a template or write one yourself.
-A template is a markdown file with an email you want to send to multiple people that you place in `templates` folder.
+A template is a [markdown](https://www.markdownguide.org/) file with an email you want to send to multiple people that you place in `templates` folder.
 The template can contain _personalization variables_ - each `$variable` will be replaced with personalized information for each receipient.
 See `templates/monkeys.md` for example.
 
