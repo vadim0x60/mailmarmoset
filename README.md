@@ -44,11 +44,11 @@ victims:
       url: 'monkey.example.com'
 ```
 
-Every victim entry has to contain `to` (an email address or a list of addresses), `subject` and `with` (substitutions for all personalization variables for this victim).
+Every victim entry has to contain `to` (an email address or a list of addresses, [brace expansion](https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html) is supported), `subject` and `with` (substitutions for all personalization variables for this victim).
 
 *Connect* your email account. All the emails will be sent from your email account. To connect it you need to set `EMAIL`, `EMAL_PWD` and `EMAIL_SMTP` environment variables: `EMAIL_SMTP` is your [SMTP server address](https://knowledge.hubspot.com/email-notifications/how-can-i-find-my-email-servers-imap-and-smtp-information) in `url:port` format, `EMAIL` is username `EMAL_PWD` is password.
 
-Run 
+*Run* 
 
 ```
 python send.py
